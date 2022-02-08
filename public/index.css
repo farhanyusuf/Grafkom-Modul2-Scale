@@ -1,0 +1,29 @@
+html{
+  margin: 0;
+}
+
+body {
+margin: 0;
+text-align: center;
+}
+
+.container{
+  position:relative;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+canvas {
+height: 60vh;
+border: 5px solid turquoise;
+background-color: black;
+}
+
+.uiContainer{
+  position: absolute;
+  top: 7rem;
+  right: 9rem;
+  z-index: 3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
